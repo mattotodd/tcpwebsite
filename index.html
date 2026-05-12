@@ -71,13 +71,20 @@
             <!-- All your buttons go here -->
             <div class="button-stack" role="navigation">
 
-              <div style="max-width: 340px; margin: 0 auto 24px; padding: 16px 20px; background: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.15); border-radius: 12px; text-align: center; font-family: inherit;">
-  <div style="font-size: 11px; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.6; margin-bottom: 4px;">Next Show</div>
-  <div style="font-size: 16px; font-weight: 600; line-height: 1.4;">Sunday, May 17th</div>
-  <div style="font-size: 14px; opacity: 0.85; margin-top: 2px;"> <img src="images/chiantiLounge_wh.webp" 
-       alt="Chianti" 
-       style="height: 40px; border-radius: 4px; object-fit: cover;"> 6–9pm</div>
-</div>
+              <a href="https://maps.google.com/?q=Chianti+restaurant"
+               target="_blank"
+               style="display: flex; max-width: 340px; margin: 0 auto 20px; text-decoration: none; color: inherit; background: rgba(0,0,0,0.03); border: 1px solid rgba(0,0,0,0.1); border-radius: 12px; overflow: hidden; align-items: stretch; transition: transform 0.15s, border-color 0.15s;"
+               onmouseover="this.style.transform='translateY(-1px)'; this.style.borderColor='rgba(0,0,0,0.2)'"
+               onmouseout="this.style.transform='translateY(0)'; this.style.borderColor='rgba(0,0,0,0.1)'">
+              <img src="images/tcp_4_sq.jpg"
+                   alt="Chianti"
+                   style="width: 90px; height: 90px; object-fit: cover; flex-shrink: 0; display: block;">
+              <div style="padding: 12px 14px; display: flex; flex-direction: column; justify-content: center; flex: 1;">
+                <div style="font-size: 10px; letter-spacing: 1.5px; text-transform: uppercase; opacity: 0.55; margin-bottom: 2px;">Next Show</div>
+                <div style="font-size: 15px; font-weight: 600; line-height: 1.2;">Chianti</div>
+                <div style="font-size: 13px; opacity: 0.75; margin-top: 2px;">Sun May 17 · 6–9pm</div>
+              </div>
+            </a>
 
               <!-- Instagram -->
               <a class="button button-instagram" href="https://www.instagram.com/the.continuity.project/" target="_blank" rel="noopener" role="button"><img class="icon" aria-hidden="true" src="images/icons/instagram.svg" alt="Instagram Logo">Instagram</a>
