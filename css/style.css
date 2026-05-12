@@ -65,7 +65,7 @@
   body {
 	margin:0;
 	padding:0;
-	background-color:#f5efe2;
+	background: #f5efe2 url('https://www.transparenttextures.com/patterns/paper-fibers.png');
 	color:#2a1f15;
 	font-family:"Open Sans",system-ui;
 	font-size:1.125rem;     				/* 18px */
